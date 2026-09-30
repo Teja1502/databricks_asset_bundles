@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - 'bakehouse_analytics/**'
+  workflow_dispatch:
 
 jobs:
   deploy:
